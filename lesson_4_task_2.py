@@ -85,12 +85,12 @@ cProfile.run('prime_num(800)')  # 1    0.257    0.257    0.257    0.257 lesson_4
 # plt.plot(data_y, data_x_1)
 # plt.title('sieve')
 # plt.ylabel('Затраченное время')
-# plt.xlabel('Размер списка')
+# plt.xlabel('i-ое по счёту простое число')
 # plt.figure()
 # data_x_2 = [x_2_1, x_2_2, x_2_3, x_2_4, x_2_5]
 # data_y = [y_1, y_2, y_3, y_4, y_5]
 # plt.plot(data_y, data_x_2)
 # plt.title('prime_num')
 # plt.ylabel('Затраченное время')
-# plt.xlabel('Размер списка')
+# plt.xlabel('i-ое по счёту простое число')
 # plt.show()
