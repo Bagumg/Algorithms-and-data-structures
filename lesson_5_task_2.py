@@ -78,19 +78,19 @@ def hex_to_decimal():
     return sum(a)
 
 
-def decimal_to_hex(hex):
+def decimal_to_hex(hex_by_me):
     hex_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f']
     remainder = deque()
-    while hex > 16:
-        if hex % 16 >= 10:
-            remainder.appendleft(str(hex_list[hex % 16]))
+    while hex_by_me > 16:
+        if hex_by_me % 16 >= 10:
+            remainder.appendleft(str(hex_list[hex_by_me % 16]))
         else:
-            remainder.appendleft(str(hex % 16))
-        hex = hex // 16
-    if hex > 10:
-        remainder.appendleft(str(hex_list[hex]))
+            remainder.appendleft(str(hex_by_me % 16))
+        hex_by_me = hex_by_me // 16
+    if hex_by_me > 10:
+        remainder.appendleft(str(hex_list[hex_by_me]))
     else:
-        remainder.appendleft(str(hex))
+        remainder.appendleft(str(hex_by_me))
 
     return ''.join(remainder).upper()
 
