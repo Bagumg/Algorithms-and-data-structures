@@ -154,8 +154,20 @@ change_arr_indexes_7(array_1)
 change_arr_indexes_8(array_1)
 change_arr_indexes_9(array_1)
 
+
 # OS Windows 7 Microsoft Windows [Version 6.1.7601]
 # Python 3.7.0
+
+# Total size of variables in change_arr_indexes function is 3860 bytes
+# Total size of variables in change_arr_indexes_2 function is 5676 bytes
+# Total size of variables in change_arr_indexes_3 function is 2796 bytes
+# Total size of variables in change_arr_indexes_4 function is 1008 bytes
+# Total size of variables in change_arr_indexes_5 function is 106 bytes
+# Total size of variables in change_arr_indexes_6 function is 0 bytes
+# Total size of variables in change_arr_indexes_7 function is 1068 bytes
+# Total size of variables in change_arr_indexes_8 function is 2884 bytes
+# Total size of variables in change_arr_indexes_9 function is 222 bytes
+
 
 # Вывод:
 # Сделал сначала варианты с ручным сбором с помощью sys.getsizeof().
